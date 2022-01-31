@@ -1,25 +1,9 @@
-Contexte du projet
-Une école souhaite gérer les informations liées à ses employés. Vous devez donc lui créer une application afin qu’il puisse optimiser le temps de la gestion. Alors le besoin c’est de créer une application web qui va faire un mini management des employés de l’école. En tant qu’administrateur :
-
-Connectez-vous en tant qu’administrateur
-Changer le mot de passe
-Déconnecter
-Gérer l’employé : o Ajout d’un employé o Modifier l’employé sortant o Voir les détails de l’employés o Lister les employés
-Rapport de tous les employés
-​
-
-Contraintes :
-
-​
-
-Utiliser DAO Design Pattern.
-
-Utiliser Repository Design Pattern.
-
-BDD : MySQL || PostregSQL
-
-ORM : Hibernate
-
-Test unitaire : Junit
-
-Thymleaf
+* Jakarta EE 9.
+* Java 1.8 (string version).
+* Maven 3.
+* JPA (Jakarta Persistence APIs) w/ Hibernate as an entity manager to create an abstraction of all data access operations.
+* Dao pattern to achieve a higher level of abstraction.
+  ![Jakarta EE 9](https://jakarta.ee/release/9.1/images/jakarta-ee-9.1-platform.jpg)
+* Embedded Tomcat 10.x.x that support jakarta servlet specification.
+* Mysql as a RDBMS (Mysql docker image).
+* Unit testing (JUnit 5)

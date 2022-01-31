@@ -7,11 +7,6 @@
         <servlet>
             <servlet-name>LoginServlet</servlet-name>
             <servlet-class>com.youcode.employeemanagement.servlet.LoginServlet</servlet-class>
-
-            <init-param>
-                <param-name>title</param-name>
-                <param-value>this is</param-value>
-            </init-param>
         </servlet>
     
 
@@ -19,7 +14,7 @@
         <servlet-mapping>
             <servlet-name>LoginServlet</servlet-name>
             <url-pattern>/</url-pattern>
-            <url-pattern>/login</url-pattern>
+<!--            <url-pattern>/login</url-pattern>-->
         </servlet-mapping>
 
 </web-app>

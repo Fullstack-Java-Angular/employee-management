@@ -18,15 +18,15 @@
 
         <p>Welcome Back, simply dummy text of the printing</p>
 
-        <div class="alert alert-danger" role="alert">
-            This is a danger alert—check it out!
-        </div>
+<%--        <div class="alert alert-danger" role="alert">--%>
+<%--            This is a danger alert—check it out!--%>
+<%--        </div>--%>
 
         <!-- Name -->
         <input type="text" name="email" id="defaultSubscriptionFormPassword" class="form-control mb-4" placeholder="E-mail">
 
         <!-- Email -->
-        <input type="password" name="password" id="defaultSubscriptionFormEmail" class="form-control mb-4" placeholder="Passwprd">
+        <input type="password" name="password" id="defaultSubscriptionFormEmail" class="form-control mb-4" placeholder="Password">
 
         <!-- Sign in button -->
         <button style="background: #435d7d" class="btn btn-info btn-block" type="submit">Login</button>

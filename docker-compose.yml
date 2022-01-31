@@ -1,6 +1,12 @@
 version: '3.1'
 
 services:
+  web:
+    build: .
+    container_name: employee-management-web
+    ports:
+      - 8888:8080
+    restart: always
   db:
     image: mysql
     container_name: employee-management-mysql
