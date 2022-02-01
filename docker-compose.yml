@@ -10,6 +10,7 @@ services:
   db:
     image: mysql
     container_name: employee-management-mysql
+    privileged: true
     command: --default-authentication-plugin=mysql_native_password
     restart: always
     ports:
