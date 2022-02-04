@@ -6,7 +6,10 @@ services:
     container_name: employee-management-web
     ports:
       - 8888:8080
+    depends_on:
+      - db
     restart: always
+
   db:
     image: mysql
     container_name: employee-management-mysql
